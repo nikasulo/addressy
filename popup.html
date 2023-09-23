@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>URL Copy Options</title>
+	  <link rel="stylesheet" href="popup.css">
+  </head>
+  <body class="container">
+	  <div>
+		  <h1>Copy a pretty url</h1>
+		  <p>Copy the URL of the current page in different formats</p>
+		  <div class="options">
+			  <button id="copyPlainText" data-format="plain-text">Copy Plain Text</button>
+			  <button id="copyMarkdown" data-format="markdown">Copy Markdown</button>
+			  <button id="copyHTML" data-format="html">Copy HTML</button>
+		  </div>
+
+		  <div class="button-container">
+			  <span class="copied-text">Copied! 🎉</span>
+		  </div>
+	  </div>
+	  <script type="module" src="popup.js"></script>
+  </body>
+</html>
